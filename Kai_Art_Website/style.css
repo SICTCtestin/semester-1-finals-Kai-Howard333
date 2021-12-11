@@ -135,6 +135,11 @@ th{
         opacity: 1.0;
         filter: alpha(opacity=100);
     }
+    .home{
+        height:50vh;
+        padding-left:8em;
+        padding-top:5em;
+    }
     #wrapper{
         margin-right: auto;
         margin-left: auto; /* will help center the text on the screen*/
@@ -212,6 +217,11 @@ th{
     .opacity:hover {
         opacity: 0.5;
         filter: alpha(opacity=40);
+    }
+    .home{
+       height:20vh;
+       padding-left: 10%;
+       padding-top:2em;
     }
     #wrapper{   /* #name is for id styling */
         padding:2em;
