@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Kai's Art</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <meta name="description" 
+                content="This is my website to show off my art work wether it be a completed piece, a Work In Progress (WIP), a sketch, or just practicing and testing the boundries of Digital art. It also shows my coding knowledge, kind of">
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html"> Sign Up</a></h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="completedWork.html">Completed</a></li>
+                <li><a href="wip.html">WIP</a></li>
+                <li><a href="sketches.html">Sketches</a></li>
+                <li><a href="signUp.html">Sign Up</a></li>
+            </ul>
+        </nav>
+        <div id="wrapper">
+            <main>
+                <h2>Sign Up</h2>
+                <p>If you wish to sign up then please fill out the following:</p>
+                <!-- for Mr.Bander, since I don't have a site to go to, I just used our Yoga action -->
+                <form method="post" action="https://webdevbasics.net/scripts/yoga.php">
+                    <label for="myUsername">Username:</label>
+                    <input id="myUsername" placeholder="Your Username here" type="text" required>
+                    <label for="myPassword">Password:</label>
+                    <input id="myPassword" placeholder="Your Password here" type="password" required>
+                    <label for="myComments">comments:</label>
+                    <textarea id="myComments" rows=2 cols=20 placeholder="" required></textarea>
+                    <button id="mySubmit">Sign Up</button>
+            </main>
+            <footer>
+                Copyright © 2021 Kai Howard<br>
+                <a href="mailto:kai@hwrd.com">kai@hwrd.com</a>
+            </footer>
+        </div>
+    <script src="script.js"></script>
+  </body>
+</html>
