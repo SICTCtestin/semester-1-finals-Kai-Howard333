@@ -129,11 +129,11 @@ th{
     /* https://stackoverflow.com/questions/18223663/how-to-change-the-opacity-of-image-on-hover-using-css */
     .opacity {
         opacity: 0.5;
-        filter: alpha(opacity=40);
+/*         filter: alpha(opacity=40); */
     }
     .opacity:hover {
         opacity: 1.0;
-        filter: alpha(opacity=100);
+/*         filter: alpha(opacity=100); */
     }
     #wrapper{
         margin-right: auto;
@@ -207,11 +207,11 @@ th{
     /* https://stackoverflow.com/questions/18223663/how-to-change-the-opacity-of-image-on-hover-using-css */
     .opacity {
         opacity: 1.0;
-        filter: alpha(opacity=100);
+/*         filter: alpha(opacity=100); */
     }
     .opacity:hover {
         opacity: 0.5;
-        filter: alpha(opacity=40);
+/*         filter: alpha(opacity=40); */
     }
     #wrapper{   /* #name is for id styling */
         padding:2em;
